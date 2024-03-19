@@ -1,4 +1,4 @@
-/*
+
 function comprar() {
     
     // Recuperando os nomes dos ingressos e a quantidade digitada.
@@ -19,7 +19,7 @@ function comprar() {
         comprarInferior(quantidade);
 
        
-
+// Funçao calcular quantidade comprada
     function comprarPista(quantidade) {
        let qtdPista = parseInt(document.getElementById('qtd-pista').textContent);
        if (quantidade > qtdPista) {
@@ -55,19 +55,6 @@ function comprar() {
      }
     
     }
-    */
+    
 
-  function comprar() {
-    let numero = parseInt(prompt('Digite um número'));
-    if (!isNaN(numero)) {
-        if (numero % 2 === 0) {
-            alert(`${numero} é par`);
-        } else {
-            alert(`${numero} é impar`);
-        }
-    } else {
-        alert( 'Por favor digite um numero válido');
-    }
-  }
   
- comprar();
